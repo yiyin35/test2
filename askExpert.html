@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./design.css">
+
+        <title>Live Healthy</title>
+    </head>
+
+    <body>
+        <nav class="nav-bar">
+            <div class="nav-feat">
+                <a href="askExpert.html">Ask an Expert</a>
+                <a href="about.html">About Us</a>
+                <a href="index.html">Home</a>
+            </div>
+
+            <a href="index.html"><h1>Live Healthy</h1></a>
+        </nav>
+
+        <div class="ask-expert">
+            <h2>Ask an Expert</h2>
+            
+            <form action="">
+                <label>Full Name: </label>
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+
+                <label>Gender: </label>
+                <p><input type="radio" value="m" name="gender" required> Male</p>
+                <p><input type="radio" value="f" name="gender"> Female</p>
+
+                <label>E-mail: </label>
+                <input type="email" name="email" required>
+
+                <label>Phone Number: </label>
+                <input type="tel" name="phone" required>
+
+                <label>Preferred Method of Contact: </label>
+                <p><input type="radio" value="methodMail" name="method" required> E-mail</p>
+                <p><input type="radio" value="methodPhone" name="method"> Phone</p>
+                <p><input type="radio" value="methodBoth" name="method"> E-mail & Phone</p>
+                
+                <label>Questions: </label>
+                <textarea name="ques" required></textarea>
+
+                <button name="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-copyright">
+                &copy 2021 Live Healthy
+            </div>
+        </div>
+    </body>
+</html>
